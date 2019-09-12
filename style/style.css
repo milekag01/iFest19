@@ -1,10 +1,10 @@
-@import '../home/aboutus.css';
+/* @import '../home/aboutus.css';
 @import '../home/home.css';
 @import '../home/sitemap.css';
 @import '../home/timer.css';
 @import '../home/misc.css';
 @import '../home/cover.css';
-@import '../event/event';
+@import '../event/event'; */
 
 
 * {
@@ -13,11 +13,11 @@
     box-sizing: border-box;
 }
 
-// body {
-//     font-family: verdana;
-//     background: #fff;
-//     overflow: hidden;
-// }
+/* body { */
+     /* font-family: verdana; */
+     /* background: #fff; */
+/* //     overflow: hidden; */
+/* // } */
 
 input {
     position: fixed;
@@ -40,7 +40,7 @@ input {
     left: 0;
     right: 0;
     bottom: 0;
-    // background-color: rgba(18, 67, 100, 0.6);
+    /* // background-color: rgba(18, 67, 100, 0.6); */
     content: '';
     opacity: 0;
     pointer-events: none;
@@ -197,8 +197,8 @@ input {
   [id="navcheck"]:checked ~ main .content {
     transform: translateX(3em);
     transform-origin: left center;
-    // -webkit-filter: blur(2px);
-    // filter: blur(2px);
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
     /* quite laggy :S */
   }
   
@@ -215,47 +215,47 @@ input {
   }
 
 
-
+/* 
 // navbar ends
 
 //homePage CSS starts
 
-.home, .about, .event, .contact, .team {
-    height: 100vh;
-    position: absolute;
-    width: 100%;
+// .home, .about, .event, .contact, .team {
+//     height: 100vh;
+//     position: absolute;
+//     width: 100%;
     // width: 115%;
     
-}
+// }
 
-.home-content,.about-content, .team-content, .contact-content, .event-content {
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+// .home-content,.about-content, .team-content, .contact-content, .event-content {
+//     height: 100%;
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
 
     // transform: skew(15deg);
-}
+// }
 
-.home {
+// .home {
     // background-image: linear-gradient( 112.4deg,  rgba(176,174,225,1) 44.9%, rgba(135,197,235,1) 94.5% );
     // transform: skew(-15deg) translateX(-7%);
     // transition: transform 1.5s cubic-bezier(0.19, 1, 0.22, 1);
-}
+// }
 
 // .about {
 //     background-image: linear-gradient( 109.5deg,  rgba(13,11,136,1) 9.4%, rgba(86,255,248,1) 78.4% );
 // }
 
-.event {
+// .event {
     // background-image: linear-gradient( 91.9deg,  rgba(243,31,105,1) 5.7%, rgba(249,233,47,1) 92.9% );
     // background-color: #fff;
-}
-
-.team {
-    background-image: radial-gradient( circle farthest-corner at 3.6% 26.5%,  rgba(106,19,253,1) 0.1%, rgba(18,134,242,1) 90% );
-}
-
-.contact {
-    background-image: linear-gradient( 111.8deg,  rgba(0,104,155,1) 19.8%, rgba(0,173,239,1) 92.1% );
-}
+// }
+*/
+ .team {
+     background-image: radial-gradient( circle farthest-corner at 3.6% 26.5%,  rgba(106,19,253,1) 0.1%, rgba(18,134,242,1) 90% );
+ } 
+/*
+// .contact {
+//     background-image: linear-gradient( 111.8deg,  rgba(0,104,155,1) 19.8%, rgba(0,173,239,1) 92.1% );
+// } */
